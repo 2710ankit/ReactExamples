@@ -1,0 +1,39 @@
+.container{
+    background-color: gray;
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+}
+body{
+    margin: 0;
+}
+
+.input_container{
+    background-color: whitesmoke;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.textbox{
+  background-color: silver;
+  border: none;
+  width: auto;
+  height: 35px;
+  flex: 8;
+  
+}
+
+.btn{
+    height: 35px;
+    width: auto;
+    background-color: green;
+    border: none;
+    color: wheat;
+    flex: 2;
+}
